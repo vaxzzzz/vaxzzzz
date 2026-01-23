@@ -3,7 +3,25 @@
 
 <!-- --------------------- -->
 
+<!-- My Banner -->
 ## Olá eu sou Victor Vaz
+<!-- --------------------- -->
+
+<!-- Animated Text -->
+  <img src="https://readme-typing-svg.herokuapp.com?color=7B68EE&size=34&center=true&vCenter=true&lines=「Software+Developer」;「Web+Developer」;「Database+Analysis」" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=EBEFFF&size=34&center=true&vCenter=true&lines=「Software+Developer」;「Web+Developer」;「Database+Analysis」" />
+</p>
+
+---
+<!-- --------------------- -->
+
+<!-- Description -->
+<h1>🎓 sʏsᴛᴇᴍs ᴀɴᴀʟʏsɪs ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ | sᴇɴᴀɪ ᴄᴏʟʟᴇɢᴇ</h1>
+<ul>
+<li>Looking for internship opportunities.</li> 
+<li>Focused on a promising career.</li>
+</ul>
+
 ---
 <!-- --------------------- -->
 
@@ -26,7 +44,7 @@
 
 <!-- Links -->
 [![Gmail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victorvaz06@gmail.com)
-[![Linkedln](https://img.shields.io/badge/LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=wh)](www.linkedin.com/in/victor-vaz-b3aa30254)
+[![Linkedln](https://img.shields.io/badge/LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=wh)](www.linkedin.com/in/victor-vaz-b3aa30254//)
 
 <!-- --------------------- -->
 
