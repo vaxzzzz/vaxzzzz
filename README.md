@@ -18,8 +18,9 @@
 <!-- Description -->
 <h1>🎓 sʏsᴛᴇᴍs ᴀɴᴀʟʏsɪs ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ | sᴇɴᴀɪ ᴄᴏʟʟᴇɢᴇ</h1>
 <ul>
-<li>Looking for internship opportunities.</li> 
-<li>Focused on a promising career.</li>
+  <li>Focused on learning and exploring new technologies</li>
+  <li>Looking for internship opportunities</li>
+  <li>I am studying and practicing: Java, JavaScript, React, OOP, MySQL, Python, and Git</li>
 </ul>
 
 ---
