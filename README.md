@@ -44,7 +44,7 @@
 
 <!-- Links -->
 [![Email](https://img.shields.io/badge/Email-victorvaz06@gmail.com-red?style=flat&logo=gmail)](mailto:victorvaz06@gmail.com)
-[![Linkedln](https://img.shields.io/badge/LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=wh)](www.linkedin.com/in/victor-vaz-b3aa30254//)
+[![Linkedln](https://img.shields.io/badge/LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=wh)](www.linkedin.com/in/victor-vaz-b3aa30254)
 
 <!-- --------------------- -->
 
