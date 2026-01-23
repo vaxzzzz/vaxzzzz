@@ -4,82 +4,66 @@
 <!-- --------------------- -->
 
 <!-- My Banner Animated -->
-<svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="240" viewBox="0 0 1200 240"
+     xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00c6ff"/>
       <stop offset="100%" stop-color="#0072ff"/>
     </linearGradient>
-
-    <!-- efeito de escrita -->
-    <style>
-      .typing {
-        stroke: url(#grad);
-        stroke-width: 2;
-        fill: none;
-        stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
-        animation: typing 3s steps(30, end) forwards;
-      }
-
-      @keyframes typing {
-        to {
-          stroke-dashoffset: 0;
-        }
-      }
-
-      .text-fill {
-        fill: url(#grad);
-        opacity: 0;
-        animation: fillText 0.5s ease forwards;
-        animation-delay: 3s;
-      }
-
-      @keyframes fillText {
-        to {
-          opacity: 1;
-        }
-      }
-    </style>
   </defs>
 
-  <!-- fundo -->
-  <rect width="1200" height="220" fill="#0f172a"/>
+  <!-- Fundo -->
+  <rect width="1200" height="240" fill="#0f172a"/>
 
-  <!-- texto contorno (digitando) -->
+  <!-- Texto principal (efeito escrita) -->
   <text x="50%" y="55%"
         text-anchor="middle"
-        font-size="88"
+        font-size="96"
         font-weight="800"
         font-family="Segoe UI, Arial, sans-serif"
-        class="typing">
+        fill="none"
+        stroke="url(#grad)"
+        stroke-width="2"
+        stroke-dasharray="1200"
+        stroke-dashoffset="1200">
     Victor Vaz
+    <animate attributeName="stroke-dashoffset"
+             from="1200" to="0"
+             dur="3s"
+             fill="freeze"/>
   </text>
 
-  <!-- texto preenchido -->
+  <!-- Texto preenchido -->
   <text x="50%" y="55%"
         text-anchor="middle"
-        font-size="88"
+        font-size="96"
         font-weight="800"
         font-family="Segoe UI, Arial, sans-serif"
-        class="text-fill">
-    Victor Vaz
-  </text>
-
-  <!-- subtítulo -->
-  <text x="50%" y="78%"
-        text-anchor="middle"
-        fill="#94a3b8"
-        font-size="22"
-        font-family="Segoe UI, Arial, sans-serif"
+        fill="url(#grad)"
         opacity="0">
+    Victor Vaz
     <animate attributeName="opacity"
              from="0" to="1"
-             begin="3.2s"
+             begin="3s"
              dur="0.6s"
              fill="freeze"/>
+  </text>
+
+  <!-- Subtítulo -->
+  <text x="50%" y="78%"
+        text-anchor="middle"
+        font-size="22"
+        font-family="Segoe UI, Arial, sans-serif"
+        fill="#94a3b8"
+        opacity="0">
     Desenvolvedor em formação | Programação & Tecnologia
+    <animate attributeName="opacity"
+             from="0" to="1"
+             begin="3.4s"
+             dur="0.6s"
+             fill="freeze"/>
   </text>
 
 </svg>
