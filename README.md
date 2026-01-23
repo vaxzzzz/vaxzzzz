@@ -3,29 +3,86 @@
 
 <!-- --------------------- -->
 
-<!-- My Banner -->
-<div align="center">
+<!-- My Banner Animated -->
+<svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
 
-  <h1 style="
-    font-size: 3.5rem;
-    font-weight: bold;
-    background: linear-gradient(90deg, #00c6ff, #0072ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 0;
-  ">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+
+    <!-- efeito de escrita -->
+    <style>
+      .typing {
+        stroke: url(#grad);
+        stroke-width: 2;
+        fill: none;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: typing 3s steps(30, end) forwards;
+      }
+
+      @keyframes typing {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .text-fill {
+        fill: url(#grad);
+        opacity: 0;
+        animation: fillText 0.5s ease forwards;
+        animation-delay: 3s;
+      }
+
+      @keyframes fillText {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="1200" height="220" fill="#0f172a"/>
+
+  <!-- texto contorno (digitando) -->
+  <text x="50%" y="55%"
+        text-anchor="middle"
+        font-size="88"
+        font-weight="800"
+        font-family="Segoe UI, Arial, sans-serif"
+        class="typing">
     Victor Vaz
-  </h1>
+  </text>
 
-  <p style="
-    font-size: 1.2rem;
-    color: #9ca3af;
-    margin-top: 5px;
-  ">
-    Desenvolvedor em formação • Tecnologia • Programação
-  </p>
+  <!-- texto preenchido -->
+  <text x="50%" y="55%"
+        text-anchor="middle"
+        font-size="88"
+        font-weight="800"
+        font-family="Segoe UI, Arial, sans-serif"
+        class="text-fill">
+    Victor Vaz
+  </text>
 
-</div>
+  <!-- subtítulo -->
+  <text x="50%" y="78%"
+        text-anchor="middle"
+        fill="#94a3b8"
+        font-size="22"
+        font-family="Segoe UI, Arial, sans-serif"
+        opacity="0">
+    <animate attributeName="opacity"
+             from="0" to="1"
+             begin="3.2s"
+             dur="0.6s"
+             fill="freeze"/>
+    Desenvolvedor em formação | Programação & Tecnologia
+  </text>
+
+</svg>
 
 <!-- --------------------- -->
 
