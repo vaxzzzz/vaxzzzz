@@ -4,14 +4,13 @@
 <!-- --------------------- -->
 
 <!-- My Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=black&customColorList=12,14,20,24&height=200&section=header&text=ʟᴜᴄᴄᴀ%20ᴠɪɢᴀɴᴏɴ%20ᴘᴇʀɪᴏᴛᴛᴏ&fontSize=68&fontAlignY=35&animation=twinkling&fontColor=fff" />
 <p align="center">
 
 <!-- --------------------- -->
 
 <!-- Animated Text -->
-  <img src="https://readme-typing-svg.herokuapp.com?color=7B68EE&size=34&center=true&vCenter=true&lines=「Software+Developer」;「Web+Developer」;「Game+Developer」;「Database+Analysis」" />
-  <img src="https://readme-typing-svg.herokuapp.com?color=EBEFFF&size=34&center=true&vCenter=true&lines=「Software+Developer」;「Web+Developer」;「Game+Developer」;「Database+Analysis」" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=7B68EE&size=34&center=true&vCenter=true&lines=「Software+Developer」;「Web+Developer」;「Database+Analysis」" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=EBEFFF&size=34&center=true&vCenter=true&lines=「Software+Developer」;「Web+Developer」;「Database+Analysis」" />
 </p>
 
 ---
@@ -46,8 +45,8 @@
 <!-- --------------------- -->
 
 <!-- Links -->
-[![Gmail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luccaperiotto@gmail.com)
-[![Linkedln](https://img.shields.io/badge/LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=wh)](https://www.linkedin.com/in/luccaviganonperiotto//)
+[![Gmail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victorvaz06@gmail.com)
+[![Linkedln](https://img.shields.io/badge/LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=wh)](www.linkedin.com/in/victor-vaz-b3aa30254)
 
 <!-- --------------------- -->
 
