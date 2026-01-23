@@ -4,7 +4,28 @@
 <!-- --------------------- -->
 
 <!-- My Banner -->
-<p align="center">
+<div align="center">
+
+  <h1 style="
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+  ">
+    Victor Vaz
+  </h1>
+
+  <p style="
+    font-size: 1.2rem;
+    color: #9ca3af;
+    margin-top: 5px;
+  ">
+    Desenvolvedor em formação • Tecnologia • Programação
+  </p>
+
+</div>
 
 <!-- --------------------- -->
 
@@ -38,7 +59,6 @@
 <img align="center" alt="" height="50" width="60" src="https://camo.githubusercontent.com/c2453c4efd99d042dbae8deb76e2937554f1f5fe3ec73c5db6013af715ee2628/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f6d7973716c2f6d7973716c2d6f726967696e616c2e737667" />
 <img align="center" alt="" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
 <img align="center" alt="" height ="60" width="70" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Github-Dark.svg" />
-<img align="center" alt="" height="50" width="60" border-radius: 10px; src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/GameMakerStudio.svg"  />
 </div>
 
 ---
